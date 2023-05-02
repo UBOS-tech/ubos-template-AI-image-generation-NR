@@ -1,0 +1,1487 @@
+[
+    {
+        "id": "c2a07c1a4e51e642",
+        "type": "tab",
+        "label": "Open AI",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d553655ffd159c1f",
+        "type": "group",
+        "z": "c2a07c1a4e51e642",
+        "name": "to AI request",
+        "style": {
+            "stroke": "#6f2fa0",
+            "label": true,
+            "color": "#6f2fa0"
+        },
+        "nodes": [
+            "8315ecd77f0f703b",
+            "63aafc159bff2c39",
+            "e1362ab28a390781",
+            "108868ca620b5697",
+            "e696baeeaa5f3aa2",
+            "11dfb6b464f541a2",
+            "4e0ae5f5baa15b77"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 972,
+        "h": 142
+    },
+    {
+        "id": "ee6ddf063ad7d44b",
+        "type": "group",
+        "z": "c2a07c1a4e51e642",
+        "name": "collectionWork",
+        "style": {
+            "stroke": "#001f60",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "67ff8d75fbd523f4",
+            "1b31749bf2cc4bba",
+            "d805987e8a592ba8",
+            "f11f50ccfd604303",
+            "52102d02ac9dd39c",
+            "51bed2cb4a990976",
+            "5f343cd24e346514",
+            "84d885c652fbbe4d",
+            "10f569a0b8d71fc1",
+            "eb130c6fafc964ab",
+            "ab06423a10352173",
+            "87f409a06cae961b",
+            "2f17c46b42ea83af",
+            "932bda8738b27db8",
+            "3ae83a54c10ec819",
+            "da005fb1446781fe",
+            "a422d61b35882323"
+        ],
+        "x": 24,
+        "y": 219,
+        "w": 752,
+        "h": 382
+    },
+    {
+        "id": "bd8a0d4d1b71deb7",
+        "type": "group",
+        "z": "c2a07c1a4e51e642",
+        "name": "gallery work",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true,
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "5619d24a037f505f",
+            "93d8b9d7fd43ef21",
+            "cc76c77e4a2d482a",
+            "8dc9d535837d3365",
+            "dc9cf9b999327031",
+            "5047fe9d9bb62ea4",
+            "81fe59c9c7423af5",
+            "2f08d20b94ae623a",
+            "3a126deb045cc3d6",
+            "85724a1d7ac27d0c",
+            "f3c20cdbc7a0b48b",
+            "66395f682ee8699d",
+            "ec0fd6c4f7877343",
+            "79170805aaf2de0a",
+            "5b0e24048b1a5414",
+            "f3db27ddcf4d40a1",
+            "7688c68985002723",
+            "aefb1eb41b15d8ed",
+            "31132709b1a2b6c1",
+            "7caaf62b09d086e9",
+            "3b1bf09a5efc1b73",
+            "17a6380e18b61cdb",
+            "8f92d5f81f4f70b0",
+            "c806b4bf7d8a0e7c",
+            "2a0add4281bd4f80",
+            "5d80e94e0c7409b9",
+            "c27eef615f13e4d7",
+            "09986a4d750e457e",
+            "1d8b1e4e9995f069"
+        ],
+        "x": 24,
+        "y": 639,
+        "w": 912,
+        "h": 642
+    },
+    {
+        "id": "a0dfdd4dea9db491",
+        "type": "group",
+        "z": "c2a07c1a4e51e642",
+        "name": "dowload",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true,
+            "color": "#92d04f"
+        },
+        "nodes": [
+            "9e2f7fea2dc334bf",
+            "1d79ed8c117d3577",
+            "40771a8f1d39c68c",
+            "b7698ba3a0c14c24",
+            "94e8707e93d680ab",
+            "f38f3e25ad3b562d"
+        ],
+        "x": 14,
+        "y": 1319,
+        "w": 932,
+        "h": 122
+    },
+    {
+        "id": "b8d5040b59b42c89",
+        "type": "group",
+        "z": "c2a07c1a4e51e642",
+        "name": "filteredGalleryText",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "color": "#000000"
+        },
+        "nodes": [
+            "78b82afb038a7795",
+            "f74cea132caf857e",
+            "8c6c77d838ab3396",
+            "88f2e90d5574b75e",
+            "cda0d06d850075d0",
+            "b92c541a4d074473",
+            "b0d164d7d5040339",
+            "577d49912a5c4e9e",
+            "8cda452ae7391cda",
+            "dda499ad54cd5976",
+            "81101b175f5a80ec",
+            "365947bbc6ba2cda",
+            "dd4f91df6295df3e"
+        ],
+        "x": 14,
+        "y": 1479,
+        "w": 1072,
+        "h": 262
+    },
+    {
+        "id": "f08aa2e05b8a08ae",
+        "type": "mongodb",
+        "hostname": "db63f7220ca0ac091200000096-1677224689679mongo.ubos-rc7jj",
+        "topology": "direct",
+        "connectOptions": "authSource=admin",
+        "port": "27017",
+        "db": "mongo",
+        "name": ""
+    },
+    {
+        "id": "8315ecd77f0f703b",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "d553655ffd159c1f",
+        "name": "Request to OpenAI",
+        "func": "msg.token = `Bearer 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`\nmsg.oldpayload=msg.payload;\nmsg.url=`https://api.openai.com/v1/images/generations`;\nmsg.method=\"POST\";\n\nmsg.headers={ \n\"Content-Type\": \"application/json\",\n  \"Authorization\": \"Bearer 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\"\n  }\n\nmsg.payload={\n    \"prompt\": msg.oldpayload.content,\n    \"n\": msg.oldpayload.count,\n    \"size\":\"512x512\"\n  }\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "63aafc159bff2c39"
+            ]
+        ]
+    },
+    {
+        "id": "63aafc159bff2c39",
+        "type": "http request",
+        "z": "c2a07c1a4e51e642",
+        "g": "d553655ffd159c1f",
+        "name": "Open AI",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 540,
+        "y": 140,
+        "wires": [
+            [
+                "e1362ab28a390781",
+                "4e0ae5f5baa15b77"
+            ]
+        ]
+    },
+    {
+        "id": "e1362ab28a390781",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "d553655ffd159c1f",
+        "name": "Send Response",
+        "func": "if (msg.statusCode==200){\n    var date = new Date();\n    var expireTime = new Date(Date.now() + (1 * 60 * 60 * 1000)); \n\nmsg.payload=msg.payload.data.map((el)=>{return{\n    img: el.url,\n    text: msg.oldpayload.content,\n    date: date,\n    expireTime: expireTime,\n}})\n}\nelse{    \n    msg.payload = msg.payload.error.message;  \n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 140,
+        "wires": [
+            [
+                "e696baeeaa5f3aa2",
+                "11dfb6b464f541a2"
+            ]
+        ]
+    },
+    {
+        "id": "108868ca620b5697",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "d553655ffd159c1f",
+        "name": "",
+        "url": "/createImage",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "8315ecd77f0f703b"
+            ]
+        ]
+    },
+    {
+        "id": "e696baeeaa5f3aa2",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "d553655ffd159c1f",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "11dfb6b464f541a2",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "d553655ffd159c1f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 910,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4e0ae5f5baa15b77",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "d553655ffd159c1f",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "67ff8d75fbd523f4",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "operation": "find",
+        "x": 560,
+        "y": 320,
+        "wires": [
+            [
+                "87f409a06cae961b"
+            ]
+        ]
+    },
+    {
+        "id": "1b31749bf2cc4bba",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "set deleted = false",
+        "func": "msg.payload.deleted = false\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 420,
+        "wires": [
+            [
+                "52102d02ac9dd39c",
+                "f11f50ccfd604303"
+            ]
+        ]
+    },
+    {
+        "id": "d805987e8a592ba8",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "url": "/createNewCollection",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 420,
+        "wires": [
+            [
+                "1b31749bf2cc4bba"
+            ]
+        ]
+    },
+    {
+        "id": "f11f50ccfd604303",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 600,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "52102d02ac9dd39c",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 600,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "51bed2cb4a990976",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "function 3",
+        "func": "msg.query = {\n    _id: objectid(msg.payload._id)\n}\n\nmsg.payload = {\n    $set: {\n        deleted: true\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 370,
+        "y": 520,
+        "wires": [
+            [
+                "10f569a0b8d71fc1",
+                "84d885c652fbbe4d",
+                "a422d61b35882323"
+            ]
+        ]
+    },
+    {
+        "id": "5f343cd24e346514",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "url": "/deleteCollection",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 520,
+        "wires": [
+            [
+                "51bed2cb4a990976",
+                "a422d61b35882323"
+            ]
+        ]
+    },
+    {
+        "id": "84d885c652fbbe4d",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 540,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "10f569a0b8d71fc1",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 540,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "eb130c6fafc964ab",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "return deleted = false",
+        "func": "msg.payload = {\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "67ff8d75fbd523f4"
+            ]
+        ]
+    },
+    {
+        "id": "ab06423a10352173",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "url": "/getCollections",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "eb130c6fafc964ab"
+            ]
+        ]
+    },
+    {
+        "id": "87f409a06cae961b",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 700,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5619d24a037f505f",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "find",
+        "x": 640,
+        "y": 940,
+        "wires": [
+            [
+                "8dc9d535837d3365",
+                "85724a1d7ac27d0c"
+            ]
+        ]
+    },
+    {
+        "id": "93d8b9d7fd43ef21",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "get by collection id",
+        "func": "msg.payload = {\n    collection: objectid(msg.payload.id),\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 460,
+        "y": 940,
+        "wires": [
+            [
+                "5619d24a037f505f",
+                "85724a1d7ac27d0c"
+            ]
+        ]
+    },
+    {
+        "id": "cc76c77e4a2d482a",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "url": "/getSingleCollectionImages",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 940,
+        "wires": [
+            [
+                "93d8b9d7fd43ef21",
+                "85724a1d7ac27d0c"
+            ]
+        ]
+    },
+    {
+        "id": "8dc9d535837d3365",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 780,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "dc9cf9b999327031",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "url": "/addImageToCollection",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "5047fe9d9bb62ea4"
+            ]
+        ]
+    },
+    {
+        "id": "5047fe9d9bb62ea4",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "function 6",
+        "func": "msg.payload = msg.payload.images.map((e) =>{\n    return {\n        ...e,\n        collection: objectid(msg.payload.collection),\n        deleted: false\n    }\n})\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 390,
+        "y": 840,
+        "wires": [
+            [
+                "3a126deb045cc3d6",
+                "2f08d20b94ae623a",
+                "81fe59c9c7423af5"
+            ]
+        ]
+    },
+    {
+        "id": "81fe59c9c7423af5",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 560,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "2f08d20b94ae623a",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 560,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "3a126deb045cc3d6",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "85724a1d7ac27d0c",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "2f17c46b42ea83af",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "url": "/getCollectionsById",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "932bda8738b27db8"
+            ]
+        ]
+    },
+    {
+        "id": "932bda8738b27db8",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "function 7",
+        "func": "msg.payload = {\n    _id: objectid(msg.payload.id),\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 370,
+        "y": 260,
+        "wires": [
+            [
+                "3ae83a54c10ec819"
+            ]
+        ]
+    },
+    {
+        "id": "3ae83a54c10ec819",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "operation": "find",
+        "x": 520,
+        "y": 260,
+        "wires": [
+            [
+                "da005fb1446781fe"
+            ]
+        ]
+    },
+    {
+        "id": "da005fb1446781fe",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 660,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f3c20cdbc7a0b48b",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "function 8",
+        "func": "msg.query = {\n    _id: objectid(msg.payload._id)\n}\n\nmsg.payload = {\n    $set: {\n        deleted: true\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 370,
+        "y": 1060,
+        "wires": [
+            [
+                "79170805aaf2de0a",
+                "ec0fd6c4f7877343"
+            ]
+        ]
+    },
+    {
+        "id": "66395f682ee8699d",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "url": "/deleteFromGallery",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 1060,
+        "wires": [
+            [
+                "f3c20cdbc7a0b48b"
+            ]
+        ]
+    },
+    {
+        "id": "ec0fd6c4f7877343",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 540,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "79170805aaf2de0a",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 540,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "5b0e24048b1a5414",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "set new name",
+        "func": "msg.query = {\n    _id: objectid(msg.payload._id)\n}\n\nmsg.payload = {\n    $set: {\n        name: msg.payload.name\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 410,
+        "y": 1160,
+        "wires": [
+            [
+                "aefb1eb41b15d8ed",
+                "7688c68985002723",
+                "31132709b1a2b6c1"
+            ]
+        ]
+    },
+    {
+        "id": "f3db27ddcf4d40a1",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "url": "/updateCollectionName",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 1160,
+        "wires": [
+            [
+                "5b0e24048b1a5414",
+                "31132709b1a2b6c1"
+            ]
+        ]
+    },
+    {
+        "id": "7688c68985002723",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 580,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "aefb1eb41b15d8ed",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 580,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "31132709b1a2b6c1",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7caaf62b09d086e9",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "function 10",
+        "func": "msg.query = {\n    collection: objectid(msg.payload._id)\n}\n\nmsg.payload = {\n    $set: {\n        deleted: true\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 450,
+        "y": 720,
+        "wires": [
+            [
+                "8f92d5f81f4f70b0",
+                "17a6380e18b61cdb",
+                "c806b4bf7d8a0e7c"
+            ]
+        ]
+    },
+    {
+        "id": "3b1bf09a5efc1b73",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "url": "/deleteFromGalleryByCollection",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 720,
+        "wires": [
+            [
+                "7caaf62b09d086e9",
+                "c806b4bf7d8a0e7c"
+            ]
+        ]
+    },
+    {
+        "id": "17a6380e18b61cdb",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "8f92d5f81f4f70b0",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 630,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "c806b4bf7d8a0e7c",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "a422d61b35882323",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "ee6ddf063ad7d44b",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "2a0add4281bd4f80",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "url": "/gettAllGalleryData",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 1240,
+        "wires": [
+            [
+                "c27eef615f13e4d7"
+            ]
+        ]
+    },
+    {
+        "id": "5d80e94e0c7409b9",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "find",
+        "x": 540,
+        "y": 1240,
+        "wires": [
+            [
+                "1d8b1e4e9995f069"
+            ]
+        ]
+    },
+    {
+        "id": "c27eef615f13e4d7",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "filter deleted = false",
+        "func": "msg.payload = {\n    deleted: false\n}\n\nmsg.sort = { _id: -1 }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 380,
+        "y": 1240,
+        "wires": [
+            [
+                "5d80e94e0c7409b9"
+            ]
+        ]
+    },
+    {
+        "id": "09986a4d750e457e",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 860,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "f38f3e25ad3b562d",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "a0dfdd4dea9db491",
+        "name": "",
+        "url": "/download",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 1400,
+        "wires": [
+            [
+                "94e8707e93d680ab",
+                "40771a8f1d39c68c"
+            ]
+        ]
+    },
+    {
+        "id": "1d79ed8c117d3577",
+        "type": "http request",
+        "z": "c2a07c1a4e51e642",
+        "g": "a0dfdd4dea9db491",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "body",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 530,
+        "y": 1400,
+        "wires": [
+            [
+                "9e2f7fea2dc334bf",
+                "40771a8f1d39c68c"
+            ]
+        ]
+    },
+    {
+        "id": "40771a8f1d39c68c",
+        "type": "debug",
+        "z": "c2a07c1a4e51e642",
+        "g": "a0dfdd4dea9db491",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "b7698ba3a0c14c24",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "a0dfdd4dea9db491",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 870,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "9e2f7fea2dc334bf",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "a0dfdd4dea9db491",
+        "name": "set headers",
+        "func": "msg.headers = { \"Content-Disposition\": \"attachment;filename=filename.png\", 'Content-Type': 'image/png' }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1400,
+        "wires": [
+            [
+                "40771a8f1d39c68c",
+                "b7698ba3a0c14c24"
+            ]
+        ]
+    },
+    {
+        "id": "94e8707e93d680ab",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "a0dfdd4dea9db491",
+        "name": "prepare URL to request",
+        "func": "msg.url = msg.req.originalUrl.replace(\"/download?url=\", '')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1400,
+        "wires": [
+            [
+                "1d79ed8c117d3577",
+                "40771a8f1d39c68c"
+            ]
+        ]
+    },
+    {
+        "id": "1d8b1e4e9995f069",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "bd8a0d4d1b71deb7",
+        "name": "add expires time",
+        "func": "const result = [];\nfor (const image of msg.payload) {\n\n    const timeDiff = new Date(image.expireTime).getTime() - new Date().getTime();\n    const hours = Math.floor(timeDiff / (1000 * 60 * 60));\n    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));\n    const timeLeft = `${hours} h ${minutes} min`;\n    image.expireIn = timeDiff > 0 ? timeLeft : 0;\n    result.push(image);\n}\n\nmsg.payload = result;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1240,
+        "wires": [
+            [
+                "09986a4d750e457e"
+            ]
+        ]
+    },
+    {
+        "id": "78b82afb038a7795",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "get unique text",
+        "func": "msg.payload = ([\n    {\n        $match: {\n            \"deleted\": false,\n            \"collection\": objectid(msg.payload.collection)\n        }\n    },\n    { \n        $group: { _id: \"$text\" } \n    },\n    { \n        $project: { _id: 0, text: \"$_id\" } \n        }\n])\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 360,
+        "y": 1520,
+        "wires": [
+            [
+                "f74cea132caf857e"
+            ]
+        ]
+    },
+    {
+        "id": "f74cea132caf857e",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "aggregate",
+        "x": 530,
+        "y": 1520,
+        "wires": [
+            [
+                "88f2e90d5574b75e"
+            ]
+        ]
+    },
+    {
+        "id": "8c6c77d838ab3396",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "",
+        "url": "/getRequestText",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 1520,
+        "wires": [
+            [
+                "78b82afb038a7795"
+            ]
+        ]
+    },
+    {
+        "id": "88f2e90d5574b75e",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "cda0d06d850075d0",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "find",
+        "x": 730,
+        "y": 1600,
+        "wires": [
+            [
+                "dd4f91df6295df3e"
+            ]
+        ]
+    },
+    {
+        "id": "b92c541a4d074473",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "return deleted = false, text = msg.payload.text",
+        "func": "msg.payload = {\n    text: msg.payload.text,\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1600,
+        "wires": [
+            [
+                "cda0d06d850075d0"
+            ]
+        ]
+    },
+    {
+        "id": "b0d164d7d5040339",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "",
+        "url": "/getGalleryByText",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 1600,
+        "wires": [
+            [
+                "b92c541a4d074473"
+            ]
+        ]
+    },
+    {
+        "id": "577d49912a5c4e9e",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1010,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "8cda452ae7391cda",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "function 13",
+        "func": "msg.query = {\n    text: msg.payload.text\n}\n\nmsg.payload = {\n    $set: {\n        deleted: true\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 390,
+        "y": 1680,
+        "wires": [
+            [
+                "365947bbc6ba2cda",
+                "81101b175f5a80ec"
+            ]
+        ]
+    },
+    {
+        "id": "dda499ad54cd5976",
+        "type": "http in",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "",
+        "url": "/deleteAllImageByText",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 1680,
+        "wires": [
+            [
+                "8cda452ae7391cda"
+            ]
+        ]
+    },
+    {
+        "id": "81101b175f5a80ec",
+        "type": "http response",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "365947bbc6ba2cda",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 590,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "dd4f91df6295df3e",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "g": "b8d5040b59b42c89",
+        "name": "filter",
+        "func": "const result = [];\nfor (const image of msg.payload) {\n\n    const timeDiff = new Date(image.expireTime).getTime() - new Date().getTime();\n    if (timeDiff > 0) {\n        result.push(image);\n    }\n}\n\nmsg.payload = result;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 1600,
+        "wires": [
+            [
+                "577d49912a5c4e9e"
+            ]
+        ]
+    }
+]
