@@ -2,7 +2,9 @@
     "name": "AI-image-generation",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-node-mongodb": "0.2.5"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
