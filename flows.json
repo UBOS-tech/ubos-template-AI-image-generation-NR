@@ -26,10 +26,10 @@
             "11dfb6b464f541a2",
             "4e0ae5f5baa15b77"
         ],
-        "x": 14,
-        "y": 39,
+        "x": 34,
+        "y": 79,
         "w": 972,
-        "h": 142
+        "h": 122
     },
     {
         "id": "ee6ddf063ad7d44b",
@@ -180,14 +180,14 @@
         "z": "c2a07c1a4e51e642",
         "g": "d553655ffd159c1f",
         "name": "Request to OpenAI",
-        "func": "msg.token = `Bearer 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`\nmsg.oldpayload=msg.payload;\nmsg.url=`https://api.openai.com/v1/images/generations`;\nmsg.method=\"POST\";\n\nmsg.headers={ \n\"Content-Type\": \"application/json\",\n  \"Authorization\": \"Bearer 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\"\n  }\n\nmsg.payload={\n    \"prompt\": msg.oldpayload.content,\n    \"n\": msg.oldpayload.count,\n    \"size\":\"512x512\"\n  }\n\nreturn msg;\n",
+        "func": "msg.token = global.get('token')\nmsg.oldpayload=msg.payload;\nmsg.url=`https://api.openai.com/v1/images/generations`;\nmsg.method=\"POST\";\n\nmsg.headers={ \n\"Content-Type\": \"application/json\",\n  \"Authorization\": msg.token\n  }\n\nmsg.payload={\n    \"prompt\": msg.oldpayload.content,\n    \"n\": msg.oldpayload.count,\n    \"size\":\"512x512\"\n  }\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 140,
+        "x": 370,
+        "y": 160,
         "wires": [
             [
                 "63aafc159bff2c39"
@@ -211,8 +211,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 540,
-        "y": 140,
+        "x": 560,
+        "y": 160,
         "wires": [
             [
                 "e1362ab28a390781",
@@ -232,8 +232,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
-        "y": 140,
+        "x": 740,
+        "y": 160,
         "wires": [
             [
                 "e696baeeaa5f3aa2",
@@ -251,8 +251,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 130,
-        "y": 140,
+        "x": 150,
+        "y": 160,
         "wires": [
             [
                 "8315ecd77f0f703b"
@@ -273,8 +273,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 760,
-        "y": 80,
+        "x": 780,
+        "y": 120,
         "wires": []
     },
     {
@@ -285,8 +285,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 910,
-        "y": 140,
+        "x": 930,
+        "y": 160,
         "wires": []
     },
     {
@@ -303,8 +303,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 540,
-        "y": 80,
+        "x": 560,
+        "y": 120,
         "wires": []
     },
     {
@@ -1482,6 +1482,52 @@
             [
                 "577d49912a5c4e9e"
             ]
+        ]
+    },
+    {
+        "id": "7f056c9621f78065",
+        "type": "inject",
+        "z": "c2a07c1a4e51e642",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "6ba8a8985fc5f1f4"
+            ]
+        ]
+    },
+    {
+        "id": "6ba8a8985fc5f1f4",
+        "type": "function",
+        "z": "c2a07c1a4e51e642",
+        "name": "function 14",
+        "func": "global.set('token', '')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 40,
+        "wires": [
+            []
         ]
     }
 ]
