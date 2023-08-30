@@ -167,11 +167,11 @@
     {
         "id": "f08aa2e05b8a08ae",
         "type": "mongodb",
-        "hostname": "db63f7220ca0ac091200000096-1677224689679mongo.ubos-rc7jj",
+        "hostname": "",
         "topology": "direct",
         "connectOptions": "authSource=admin",
         "port": "27017",
-        "db": "mongo",
+        "db": "",
         "name": ""
     },
     {
@@ -308,23 +308,6 @@
         "wires": []
     },
     {
-        "id": "67ff8d75fbd523f4",
-        "type": "mongodb in",
-        "z": "c2a07c1a4e51e642",
-        "g": "ee6ddf063ad7d44b",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "imageCollection",
-        "operation": "find",
-        "x": 560,
-        "y": 320,
-        "wires": [
-            [
-                "87f409a06cae961b"
-            ]
-        ]
-    },
-    {
         "id": "1b31749bf2cc4bba",
         "type": "function",
         "z": "c2a07c1a4e51e642",
@@ -373,22 +356,6 @@
         "headers": {},
         "x": 600,
         "y": 380,
-        "wires": []
-    },
-    {
-        "id": "52102d02ac9dd39c",
-        "type": "mongodb out",
-        "z": "c2a07c1a4e51e642",
-        "g": "ee6ddf063ad7d44b",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "imageCollection",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 600,
-        "y": 420,
         "wires": []
     },
     {
@@ -450,22 +417,6 @@
         "wires": []
     },
     {
-        "id": "10f569a0b8d71fc1",
-        "type": "mongodb out",
-        "z": "c2a07c1a4e51e642",
-        "g": "ee6ddf063ad7d44b",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "imageCollection",
-        "payonly": true,
-        "upsert": false,
-        "multi": true,
-        "operation": "update",
-        "x": 540,
-        "y": 520,
-        "wires": []
-    },
-    {
         "id": "eb130c6fafc964ab",
         "type": "function",
         "z": "c2a07c1a4e51e642",
@@ -514,24 +465,6 @@
         "x": 700,
         "y": 320,
         "wires": []
-    },
-    {
-        "id": "5619d24a037f505f",
-        "type": "mongodb in",
-        "z": "c2a07c1a4e51e642",
-        "g": "bd8a0d4d1b71deb7",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "operation": "find",
-        "x": 640,
-        "y": 940,
-        "wires": [
-            [
-                "8dc9d535837d3365",
-                "85724a1d7ac27d0c"
-            ]
-        ]
     },
     {
         "id": "93d8b9d7fd43ef21",
@@ -636,22 +569,6 @@
         ]
     },
     {
-        "id": "81fe59c9c7423af5",
-        "type": "mongodb out",
-        "z": "c2a07c1a4e51e642",
-        "g": "bd8a0d4d1b71deb7",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 560,
-        "y": 840,
-        "wires": []
-    },
-    {
         "id": "2f08d20b94ae623a",
         "type": "http response",
         "z": "c2a07c1a4e51e642",
@@ -743,23 +660,6 @@
         ]
     },
     {
-        "id": "3ae83a54c10ec819",
-        "type": "mongodb in",
-        "z": "c2a07c1a4e51e642",
-        "g": "ee6ddf063ad7d44b",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "imageCollection",
-        "operation": "find",
-        "x": 520,
-        "y": 260,
-        "wires": [
-            [
-                "da005fb1446781fe"
-            ]
-        ]
-    },
-    {
         "id": "da005fb1446781fe",
         "type": "http response",
         "z": "c2a07c1a4e51e642",
@@ -828,22 +728,6 @@
         "wires": []
     },
     {
-        "id": "79170805aaf2de0a",
-        "type": "mongodb out",
-        "z": "c2a07c1a4e51e642",
-        "g": "bd8a0d4d1b71deb7",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "payonly": true,
-        "upsert": false,
-        "multi": true,
-        "operation": "update",
-        "x": 540,
-        "y": 1060,
-        "wires": []
-    },
-    {
         "id": "5b0e24048b1a5414",
         "type": "function",
         "z": "c2a07c1a4e51e642",
@@ -899,22 +783,6 @@
         "headers": {},
         "x": 580,
         "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "aefb1eb41b15d8ed",
-        "type": "mongodb out",
-        "z": "c2a07c1a4e51e642",
-        "g": "bd8a0d4d1b71deb7",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "imageCollection",
-        "payonly": true,
-        "upsert": false,
-        "multi": true,
-        "operation": "update",
-        "x": 580,
-        "y": 1160,
         "wires": []
     },
     {
@@ -993,22 +861,6 @@
         "wires": []
     },
     {
-        "id": "8f92d5f81f4f70b0",
-        "type": "mongodb out",
-        "z": "c2a07c1a4e51e642",
-        "g": "bd8a0d4d1b71deb7",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "payonly": true,
-        "upsert": false,
-        "multi": true,
-        "operation": "update",
-        "x": 630,
-        "y": 720,
-        "wires": []
-    },
-    {
         "id": "c806b4bf7d8a0e7c",
         "type": "debug",
         "z": "c2a07c1a4e51e642",
@@ -1059,23 +911,6 @@
         "wires": [
             [
                 "c27eef615f13e4d7"
-            ]
-        ]
-    },
-    {
-        "id": "5d80e94e0c7409b9",
-        "type": "mongodb in",
-        "z": "c2a07c1a4e51e642",
-        "g": "bd8a0d4d1b71deb7",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "operation": "find",
-        "x": 540,
-        "y": 1240,
-        "wires": [
-            [
-                "1d8b1e4e9995f069"
             ]
         ]
     },
@@ -1279,23 +1114,6 @@
         ]
     },
     {
-        "id": "f74cea132caf857e",
-        "type": "mongodb in",
-        "z": "c2a07c1a4e51e642",
-        "g": "b8d5040b59b42c89",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "operation": "aggregate",
-        "x": 530,
-        "y": 1520,
-        "wires": [
-            [
-                "88f2e90d5574b75e"
-            ]
-        ]
-    },
-    {
         "id": "8c6c77d838ab3396",
         "type": "http in",
         "z": "c2a07c1a4e51e642",
@@ -1324,23 +1142,6 @@
         "x": 670,
         "y": 1520,
         "wires": []
-    },
-    {
-        "id": "cda0d06d850075d0",
-        "type": "mongodb in",
-        "z": "c2a07c1a4e51e642",
-        "g": "b8d5040b59b42c89",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "operation": "find",
-        "x": 730,
-        "y": 1600,
-        "wires": [
-            [
-                "dd4f91df6295df3e"
-            ]
-        ]
     },
     {
         "id": "b92c541a4d074473",
@@ -1449,22 +1250,6 @@
         "wires": []
     },
     {
-        "id": "365947bbc6ba2cda",
-        "type": "mongodb out",
-        "z": "c2a07c1a4e51e642",
-        "g": "b8d5040b59b42c89",
-        "mongodb": "f08aa2e05b8a08ae",
-        "name": "mongo",
-        "collection": "gallery",
-        "payonly": true,
-        "upsert": false,
-        "multi": true,
-        "operation": "update",
-        "x": 590,
-        "y": 1700,
-        "wires": []
-    },
-    {
         "id": "dd4f91df6295df3e",
         "type": "function",
         "z": "c2a07c1a4e51e642",
@@ -1528,6 +1313,208 @@
         "y": 40,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "52102d02ac9dd39c",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 600,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "10f569a0b8d71fc1",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 540,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "81fe59c9c7423af5",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 560,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "79170805aaf2de0a",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 540,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "aefb1eb41b15d8ed",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 580,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "8f92d5f81f4f70b0",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 630,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "365947bbc6ba2cda",
+        "type": "mongodb out",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "payonly": true,
+        "upsert": false,
+        "multi": true,
+        "operation": "update",
+        "x": 590,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "67ff8d75fbd523f4",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "operation": "find",
+        "x": 560,
+        "y": 320,
+        "wires": [
+            [
+                "87f409a06cae961b"
+            ]
+        ]
+    },
+    {
+        "id": "5619d24a037f505f",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "find",
+        "x": 640,
+        "y": 940,
+        "wires": [
+            [
+                "8dc9d535837d3365",
+                "85724a1d7ac27d0c"
+            ]
+        ]
+    },
+    {
+        "id": "3ae83a54c10ec819",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "imageCollection",
+        "operation": "find",
+        "x": 520,
+        "y": 260,
+        "wires": [
+            [
+                "da005fb1446781fe"
+            ]
+        ]
+    },
+    {
+        "id": "5d80e94e0c7409b9",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "find",
+        "x": 540,
+        "y": 1240,
+        "wires": [
+            [
+                "1d8b1e4e9995f069"
+            ]
+        ]
+    },
+    {
+        "id": "f74cea132caf857e",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "aggregate",
+        "x": 530,
+        "y": 1520,
+        "wires": [
+            [
+                "88f2e90d5574b75e"
+            ]
+        ]
+    },
+    {
+        "id": "cda0d06d850075d0",
+        "type": "mongodb in",
+        "z": "c2a07c1a4e51e642",
+        "mongodb": "f08aa2e05b8a08ae",
+        "name": "mongo",
+        "collection": "gallery",
+        "operation": "find",
+        "x": 730,
+        "y": 1600,
+        "wires": [
+            [
+                "dd4f91df6295df3e"
+            ]
         ]
     }
 ]
